@@ -62,4 +62,17 @@ I created a .ucf file in order to demonstrate the results on the Diligent Nexys 
 
 [Four Bit UCF](Four_Bit_UCF.ucf)
 
+## Final Waveform
+
+![alt text][Four_Bit_Testbench_Waveform.PNG]
+
+[Four_Bit_Testbench_Waveform.PNG]: https://github.com/KevinCabusora/ECE281_Lab2/blob/master/Four_Bit_Testbench_Waveform.PNG?raw=true "Four Bit Testbench"
+
+## Demo
+
+Four-bit adder functionality (B-grade functionality) was demoed successfully to Dr. Neebel.
+
+## Documentation
+
+C3C Kyle Jonas assisted me in checking my variables, and helped point out that my variables (A, B instead of Ain, Bin) were off.
 
