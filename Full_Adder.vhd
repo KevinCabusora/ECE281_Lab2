@@ -46,7 +46,7 @@ begin
 Ain_NOT <= not Ain;
 Bin_NOT <= not Bin;
 Cin_NOT <= not Cin;
-D <= Ain_NOT and Bin and Cin;
+D <= Ain_NOT and Bin_NOT and Cin;
 E <= Ain_NOT and Bin and Cin_NOT;
 F <= Ain and Bin_NOT and Cin_NOT;
 G <= Ain and Bin and Cin;

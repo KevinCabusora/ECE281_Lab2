@@ -55,7 +55,7 @@ ARCHITECTURE behavior OF Four_Bit_Testbench IS
    --Inputs
    signal Ain : std_logic_vector(3 downto 0) := (others => '0');
    signal Bin : std_logic_vector(3 downto 0) := (others => '0');
-   signal Cin : std_logic;
+   signal Cin : std_logic := '0';
 
  	--Outputs
    signal Sum : std_logic_vector(3 downto 0);
