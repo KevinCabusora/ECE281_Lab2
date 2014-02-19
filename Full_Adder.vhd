@@ -30,8 +30,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity Full_Adder is
-    Port ( A : in  STD_LOGIC;
-           B : in  STD_LOGIC;
+    Port ( Ain : in  STD_LOGIC;
+           Bin : in  STD_LOGIC;
            Cin : in  STD_LOGIC;
            Sum : out  STD_LOGIC;
            Cout : out  STD_LOGIC);
@@ -39,20 +39,20 @@ end Full_Adder;
 
 architecture Behavioral of Full_Adder is
 
-signal D, E, F, G, H, I, J, A_NOT, B_NOT, Cin_NOT : STD_LOGIC;
+signal D, E, F, G, H, I, J, Ain_NOT, Bin_NOT, Cin_NOT : STD_LOGIC;
 
 begin
 
-A_NOT <= not A;
-B_NOT <= not B;
+Ain_NOT <= not Ain;
+Bin_NOT <= not Bin;
 Cin_NOT <= not Cin;
-D <= A_NOT and B and Cin;
-E <= A_NOT and B and Cin_NOT;
-F <= A and B_NOT and Cin_NOT;
-G <= A and B and Cin;
-H <= A_NOT and B and Cin;
-I <= A and B_NOT and Cin;
-J <= A and B;
+D <= Ain_NOT and Bin and Cin;
+E <= Ain_NOT and Bin and Cin_NOT;
+F <= Ain and Bin_NOT and Cin_NOT;
+G <= Ain and Bin and Cin;
+H <= Ain_NOT and Bin and Cin;
+I <= Ain and Bin_NOT and Cin;
+J <= Ain and Bin;
 Sum <= D or E or F or G;
 Cout <= H or I or J;
 
