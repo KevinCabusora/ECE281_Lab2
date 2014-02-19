@@ -1,20 +1,20 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: 		 USAFA, DFEC
+-- Engineer: 	 	 C3C Kevin Cabusora
 -- 
 -- Create Date:    14:11:08 02/10/2014 
--- Design Name: 
+-- Design Name: 	 Four Bit Adder
 -- Module Name:    Four_Bit - Structural 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
+-- Project Name: 	 Lab 2
+-- Target Devices: Diligent Nexys 2
+-- Tool versions:  N/A
+-- Description: 	 Four Bit Adder
 --
--- Dependencies: 
+-- Dependencies: 	 N/A
 --
--- Revision: 
+-- Revision: 		 N/A
 -- Revision 0.01 - File Created
--- Additional Comments: 
+-- Additional Comments: N/A
 --
 ----------------------------------------------------------------------------------
 library IEEE;

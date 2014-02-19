@@ -1,24 +1,24 @@
 --------------------------------------------------------------------------------
--- Company: 
--- Engineer:
+-- Company: 		USAFA, DFEC
+-- Engineer:		C3C Kevin Cabusora
 --
 -- Create Date:   00:40:35 02/14/2014
--- Design Name:   
+-- Design Name:   Four Bit Testbench
 -- Module Name:   C:/Users/C16kevin.cabusora/Documents/xilinx projects ece281/Lab2/Four_Bit_Testbench.vhd
 -- Project Name:  Lab2
--- Target Device:  
--- Tool versions:  
--- Description:   
+-- Target Device: Diligent Nexys 2
+-- Tool versions: N/A
+-- Description:   N/A
 -- 
 -- VHDL Test Bench Created by ISE for module: Four_Bit
 -- 
--- Dependencies:
+-- Dependencies:	N/A
 -- 
--- Revision:
+-- Revision:		N/A
 -- Revision 0.01 - File Created
--- Additional Comments:
+-- Additional Comments: N/A
 --
--- Notes: 
+-- Notes: N/A
 -- This testbench has been automatically generated using types std_logic and
 -- std_logic_vector for the ports of the unit under test.  Xilinx recommends
 -- that these types always be used for the top-level I/O of a design in order
